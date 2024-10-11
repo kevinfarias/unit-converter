@@ -6,4 +6,5 @@ return [
     'temperature' => 'kelvin',
     'pressure' => 'pascals',
     'mass' => 'kilograms',
+    'datastorage' => 'mb',
 ];

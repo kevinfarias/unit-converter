@@ -66,6 +66,11 @@ abstract class Unit
         $this->formulas = $config['formulas'];
     }
 
+    public function getFormulas(): array
+    {
+        return $this->formulas;
+    }
+
     /**
      * Validates and formats the unit type provided during instantiation.
      *
