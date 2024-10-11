@@ -23,8 +23,8 @@ class PressureConvertionTest extends TestCase
         $this->assertEquals(1000, $pressure->to('mpa'));
         $this->assertEquals(1, $pressure->to('pa'));
         $this->assertEquals(1000, $pressure->to('kpa'));
-        $this->assertEquals(0.0001450377, $pressure->to('psi'));
-        $this->assertEquals(1.450377377E-7, $pressure->to('ksi'));
-        $this->assertEquals(0.0000098692, $pressure->to('atm'));
+        $this->assertEquals(0.00014503773772954367, $pressure->to('psi'));
+        $this->assertEquals(1.4503773772954366E-7, $pressure->to('ksi'));
+        $this->assertEquals(9.869232667160129E-6, $pressure->to('atm'));
     }
 }

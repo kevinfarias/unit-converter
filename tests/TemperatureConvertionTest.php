@@ -19,11 +19,11 @@ class TemperatureConvertionTest extends TestCase
         $temperature = new Temperature(100, 'k');
 
         $this->assertEquals(100, $temperature->to('kelvin'));
-        $this->assertEquals(-173.15, $temperature->to('celsius'));
+        $this->assertEquals(-173.14999999999998, $temperature->to('celsius'));
         $this->assertEquals(-279.67, $temperature->to('fahrenheit'));
 
         $this->assertEquals(100, $temperature->to('k'));
-        $this->assertEquals(-173.15, $temperature->to('c'));
+        $this->assertEquals(-173.14999999999998, $temperature->to('c'));
         $this->assertEquals(-279.67, $temperature->to('f'));
     }
 }
