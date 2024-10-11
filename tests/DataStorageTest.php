@@ -22,7 +22,5 @@ class DataStorageConvertionTest extends TestCase
         $this->assertEquals(1 , $dataStorage->to('mb'));
         $this->assertEquals(0.0009765625 , $dataStorage->to('gb'));
         $this->assertEquals(0.00000095367431640625 , $dataStorage->to('tb'));
-
-        die(var_dump($dataStorage));
     }
 }
